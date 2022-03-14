@@ -732,7 +732,7 @@ extern int __overflow (FILE *, int);
 # 7 "101-quote.c"
 int main(void)
 {
- puts("and that piece of art is useful \" - Dora Korpar, 2015-10-19");
+ puts("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
  return (1);
 }

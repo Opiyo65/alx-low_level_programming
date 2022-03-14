@@ -3,7 +3,7 @@
 	.section	.rodata
 	.align 8
 .LC0:
-	.string	"and that piece of art is useful \" - Dora Korpar, 2015-10-19"
+	.string	"and that piece of art is useful\" - Dora Korpar, 2015-10-19"
 	.text
 	.globl	main
 	.type	main, @function
