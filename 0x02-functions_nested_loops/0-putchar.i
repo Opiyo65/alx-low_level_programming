@@ -729,9 +729,8 @@ extern int __overflow (FILE *, int);
 
 
 
-# 7 "0-putchar.c"
-int main(void)
+
+
+# 9 "0-putchar.c"
+int _putchar(char c)
 {
- puts("_putchar\n");
- return (0);
-}
