@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * * main - prints a string 
+ * * main - prints a string
  * *
  * * Description: the string is "_putchar"
  * *
