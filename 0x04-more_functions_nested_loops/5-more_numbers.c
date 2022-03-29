@@ -1,16 +1,19 @@
 #include "main.h"
 /**
-*print_most_numbers - Funtion
-*
+*more_numbers - Funtion
 */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int n;
+	int i, j;
 
-	for (n = 0; n <= 9; n++)
+	for (i = 0; i < 10; i++)
 	{
-		if ((n != 2) && (n != 4))
-			_putchar(n + '0');
-	}
+		for (j = 0; j <= 14; j++)
+		{
+			if (j > 9)
+				_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
+		}
 	_putchar('\n');
+	}
 }
