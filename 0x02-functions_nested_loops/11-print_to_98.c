@@ -1,13 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * add - Suma dos enteros por función.
- * @i: Primera varable entera a sumar.
- * @l: Segunda variable a sumar.
- * Return: retorno con sumatoria
+ * print_to_98 - Prints all natural numbers from n to 98.
+ * @n: Number.
  */
-int add(int i, int l)
+void print_to_98(int n)
 {
-	int n;
-	 n = i + l;
-	return (n);
+	if (n >= 98)
+	{
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
+	}
+
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
+	}
 }
